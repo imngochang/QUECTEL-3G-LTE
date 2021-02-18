@@ -47,7 +47,7 @@ UART_HandleTypeDef huart2;
 uint8_t Sim_RSSI = 0;
 extern uint8_t Sim_Rxbyte[1];
 extern uint8_t HTTP_DataToGet[MAX_RECVBUF_LEN];
-char HTTP_GetRequest[100] = "http://google.com.vn";
+char HTTPServer_URL[100] = "http://google.com.vn";
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -107,7 +107,7 @@ int main(void)
 			  {
 				  if(HTTP_configParams() == RET_OK)
 				  {
-					  if(HTTP_sendGETRequest(HTTP_GetRequest) == RET_OK)
+					  if(HTTP_sendGETRequest(HTTPServer_URL) == RET_OK)
 					  {
 						  if(HTTP_readGETResponse((char*)HTTP_DataToGet) == RET_OK)
 						  {

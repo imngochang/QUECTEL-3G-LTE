@@ -39,11 +39,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  17 .debug_line   00007bab  00000000  00000000  00044413  2**0
                   CONTENTS, READONLY, DEBUGGING
- 18 .debug_str    00086704  00000000  00000000  0004bfbe  2**0
+ 18 .debug_str    00086703  00000000  00000000  0004bfbe  2**0
                   CONTENTS, READONLY, DEBUGGING
- 19 .comment      0000007b  00000000  00000000  000d26c2  2**0
+ 19 .comment      0000007b  00000000  00000000  000d26c1  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00002a24  00000000  00000000  000d2740  2**2
+ 20 .debug_frame  00002a24  00000000  00000000  000d273c  2**2
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -1848,7 +1848,7 @@ int main(void)
  8000ea0:	2b00      	cmp	r3, #0
  8000ea2:	d10f      	bne.n	8000ec4 <main+0x84>
 				  {
-					  if(HTTP_sendGETRequest(HTTP_GetRequest) == RET_OK)
+					  if(HTTP_sendGETRequest(HTTPServer_URL) == RET_OK)
  8000ea4:	480d      	ldr	r0, [pc, #52]	; (8000edc <main+0x9c>)
  8000ea6:	f7ff fbc3 	bl	8000630 <HTTP_sendGETRequest>
  8000eaa:	4603      	mov	r3, r0
