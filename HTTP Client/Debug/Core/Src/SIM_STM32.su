@@ -1,0 +1,16 @@
+SIM_STM32.c:34:6:HAL_UART_RxCpltCallback	16	static
+SIM_STM32.c:55:6:deleteBuffer	24	static
+SIM_STM32.c:72:10:strstrFromStart	24	static
+SIM_STM32.c:106:10:strstrFromEnd	32	static
+SIM_STM32.c:140:6:subString	32	static
+SIM_STM32.c:158:8:Sim_send	16	static
+SIM_STM32.c:175:8:Sim_recv	24	static,ignoring_inline_asm
+SIM_STM32.c:212:8:Sim_checkResponseWith	32	static,ignoring_inline_asm
+SIM_STM32.c:249:8:Sim_checkRespIncludingNULL	32	static,ignoring_inline_asm
+SIM_STM32.c:278:8:Sim_checkOK	8	static,ignoring_inline_asm
+SIM_STM32.c:292:9:Sim_getSignalQuality	16	static,ignoring_inline_asm
+SIM_STM32.c:318:8:Sim_queryCardStatus	8	static,ignoring_inline_asm
+SIM_STM32.c:334:8:Sim_configInternet	120	static,ignoring_inline_asm
+SIM_STM32.c:363:8:Sim_connectInternet	16	static,ignoring_inline_asm
+SIM_STM32.c:405:8:Sim_disconnectInternet	8	static,ignoring_inline_asm
+SIM_STM32.c:420:10:Sim_getErrorCode	40	static

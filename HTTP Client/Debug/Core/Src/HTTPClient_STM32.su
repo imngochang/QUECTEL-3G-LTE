@@ -1,0 +1,3 @@
+HTTPClient_STM32.c:13:8:HTTP_configParams	8	static,ignoring_inline_asm
+HTTPClient_STM32.c:43:8:HTTP_sendGETRequest	136	static,ignoring_inline_asm
+HTTPClient_STM32.c:116:8:HTTP_readGETResponse	32	static,ignoring_inline_asm

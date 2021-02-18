@@ -1,0 +1,4 @@
+#include "SIM_STM32.h"
+
+uint8_t HTTP_DataToGet[MAX_RECVBUF_LEN] = {0};
+uint8_t FTP_DataToSend[MAX_RECVBUF_LEN/2] = "";

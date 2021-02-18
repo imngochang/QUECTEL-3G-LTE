@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HTTP Client/Core/Src/HTTPClient_STM32&apos; to &apos;HTTPClient_STM32.c&apos;" description="Rename resource &apos;HTTPClient_STM32&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/HTTPClient_STM32" name="HTTPClient_STM32.c" stamp="1613623579993" updateReferences="true"/>
+</session>

@@ -1,0 +1,884 @@
+2021-02-18 10:51:30,017 [INFO] Activator:170 - 
+
+
+2021-02-18 10:51:30,019 [INFO] Activator:171 - !SESSION log4j initialized
+2021-02-18 10:51:44,442 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2021-02-18 10:51:44,673 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304
+2021-02-18 10:51:44,684 [INFO] DbMcusXml:71 - Set database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/mcu/
+2021-02-18 10:51:44,689 [INFO] DbBoardsPdsc:57 - Set plugin database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/boardmanager/
+2021-02-18 10:51:44,689 [INFO] DbMcus:259 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 10:51:44,690 [INFO] DbBoards:265 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 10:51:44,692 [INFO] DbExamples:329 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 10:51:44,706 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 10:51:44,707 [INFO] DbMcusJson:63 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 10:51:44,708 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 10:51:44,709 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 10:51:44,800 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-02-18 10:51:44,813 [INFO] DbExamplesSqlite:699 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 10:51:44,933 [INFO] RulesReader:52 - Compatibility file has been processed (228 Rules)
+2021-02-18 10:51:45,060 [INFO] MicroXplorer:565 - Detected Java Version = 1.8.0_202
+2021-02-18 10:51:45,061 [INFO] DbMcusXml:71 - Set database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/mcu/
+2021-02-18 10:51:45,062 [INFO] DbBoardsPdsc:57 - Set plugin database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/boardmanager/
+2021-02-18 10:51:45,062 [INFO] DbMcus:259 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 10:51:45,062 [INFO] DbBoards:265 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 10:51:45,062 [INFO] DbExamples:329 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 10:51:45,062 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 10:51:45,062 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 10:51:45,063 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 10:51:45,063 [INFO] DbMcusJson:63 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 10:51:45,063 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 10:51:45,063 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 10:51:45,063 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 10:51:45,063 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 10:51:45,063 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 10:51:45,063 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 10:51:45,064 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-02-18 10:51:45,064 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 10:51:45,064 [INFO] DbExamplesSqlite:699 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 10:51:45,145 [INFO] MainPanel:190 - HeapMemory: 268435456
+2021-02-18 10:51:45,211 [INFO] DbMcusXml:71 - Set database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/mcu/
+2021-02-18 10:51:45,211 [INFO] DbBoardsPdsc:57 - Set plugin database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/boardmanager/
+2021-02-18 10:51:45,211 [INFO] DbMcus:259 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 10:51:45,212 [INFO] DbBoards:265 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 10:51:45,212 [INFO] DbExamples:329 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 10:51:45,212 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 10:51:45,212 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 10:51:45,212 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 10:51:45,213 [INFO] DbMcusJson:63 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 10:51:45,213 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 10:51:45,213 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 10:51:45,213 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 10:51:45,213 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 10:51:45,213 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 10:51:45,213 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 10:51:45,213 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-02-18 10:51:45,213 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 10:51:45,214 [INFO] DbExamplesSqlite:699 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 10:51:45,231 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304
+2021-02-18 10:51:45,232 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, ]
+2021-02-18 10:51:45,233 [INFO] PluginManage:292 - Check plugin analytics
+2021-02-18 10:51:45,371 [INFO] AnalyticsPlugin:225 - Accepted Software Licenses: 
+2021-02-18 10:51:45,372 [INFO] AnalyticsPlugin:227 - Accepted CMSIS Pack Licenses: 
+2021-02-18 10:51:45,372 [INFO] AnalyticsPlugin:229 - Accepted Firmware Licenses: 
+2021-02-18 10:51:45,372 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2021-02-18 10:51:45,374 [INFO] PluginManage:292 - Check plugin clock
+2021-02-18 10:51:45,391 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2021-02-18 10:51:45,391 [INFO] PluginManage:292 - Check plugin ddr
+2021-02-18 10:51:45,394 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2021-02-18 10:51:45,394 [INFO] PluginManage:292 - Check plugin filemanager
+2021-02-18 10:51:45,501 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2021-02-18 10:51:45,501 [INFO] PluginManage:292 - Check plugin ipmanager
+2021-02-18 10:51:45,514 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2021-02-18 10:51:45,514 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2021-02-18 10:51:45,529 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2021-02-18 10:51:45,529 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2021-02-18 10:51:45,559 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2021-02-18 10:51:45,559 [INFO] PluginManage:292 - Check plugin power
+2021-02-18 10:51:45,575 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2021-02-18 10:51:45,575 [INFO] PluginManage:292 - Check plugin projectmanager
+2021-02-18 10:51:45,589 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2021-02-18 10:51:45,589 [INFO] PluginManage:292 - Check plugin thirdparty
+2021-02-18 10:51:45,793 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2021-02-18 10:51:45,793 [INFO] PluginManage:292 - Check plugin tools
+2021-02-18 10:51:45,793 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-02-18 10:51:45,794 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-02-18 10:51:45,794 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [1/15]
+2021-02-18 10:51:45,842 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2021-02-18 10:51:45,843 [INFO] PluginManage:292 - Check plugin tutovideos
+2021-02-18 10:51:46,053 [INFO] PluginManage:342 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2021-02-18 10:51:46,053 [INFO] PluginManage:292 - Check plugin updater
+2021-02-18 10:51:46,065 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2021-02-18 10:51:46,066 [INFO] PluginManage:265 - PluginManage : Loaded plugins [13]
+2021-02-18 10:51:46,284 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-02-18 10:51:46,412 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,412 [INFO] PluginManager:203 - loadIPPluginJar : add adc
+2021-02-18 10:51:46,436 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,437 [INFO] PluginManager:203 - loadIPPluginJar : add aes
+2021-02-18 10:51:46,470 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,470 [INFO] PluginManager:203 - loadIPPluginJar : add can
+2021-02-18 10:51:46,489 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,489 [INFO] PluginManager:203 - loadIPPluginJar : add comp
+2021-02-18 10:51:46,512 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,513 [INFO] PluginManager:203 - loadIPPluginJar : add cryp
+2021-02-18 10:51:46,536 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,536 [INFO] PluginManager:203 - loadIPPluginJar : add dfsdm
+2021-02-18 10:51:46,547 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,547 [INFO] PluginManager:203 - loadIPPluginJar : add dma
+2021-02-18 10:51:46,564 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,564 [INFO] PluginManager:203 - loadIPPluginJar : add fatfs
+2021-02-18 10:51:46,601 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,601 [INFO] PluginManager:203 - loadIPPluginJar : add fmc
+2021-02-18 10:51:46,613 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,613 [INFO] PluginManager:203 - loadIPPluginJar : add freertos
+2021-02-18 10:51:46,631 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,631 [INFO] PluginManager:203 - loadIPPluginJar : add genericplugin
+2021-02-18 10:51:46,690 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,690 [INFO] PluginManager:203 - loadIPPluginJar : add gfxmmu
+2021-02-18 10:51:46,774 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,774 [INFO] PluginManager:203 - loadIPPluginJar : add gic
+2021-02-18 10:51:46,784 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,784 [INFO] PluginManager:203 - loadIPPluginJar : add gpio
+2021-02-18 10:51:46,830 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,831 [INFO] PluginManager:203 - loadIPPluginJar : add gtzc
+2021-02-18 10:51:46,853 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,853 [INFO] PluginManager:203 - loadIPPluginJar : add hash
+2021-02-18 10:51:46,890 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,891 [INFO] PluginManager:203 - loadIPPluginJar : add i2c
+2021-02-18 10:51:46,921 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,921 [INFO] PluginManager:203 - loadIPPluginJar : add i2s
+2021-02-18 10:51:46,930 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,931 [INFO] PluginManager:203 - loadIPPluginJar : add ipddr
+2021-02-18 10:51:46,955 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,955 [INFO] PluginManager:203 - loadIPPluginJar : add lorawan
+2021-02-18 10:51:46,982 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,982 [INFO] PluginManager:203 - loadIPPluginJar : add ltdc
+2021-02-18 10:51:46,992 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:46,992 [INFO] PluginManager:203 - loadIPPluginJar : add mdma
+2021-02-18 10:51:47,001 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,002 [INFO] PluginManager:203 - loadIPPluginJar : add nvic
+2021-02-18 10:51:47,027 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,027 [INFO] PluginManager:203 - loadIPPluginJar : add opamp
+2021-02-18 10:51:47,071 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,071 [INFO] PluginManager:203 - loadIPPluginJar : add openamp
+2021-02-18 10:51:47,101 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,101 [INFO] PluginManager:203 - loadIPPluginJar : add pdm2pcm
+2021-02-18 10:51:47,111 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,114 [INFO] PluginManager:203 - loadIPPluginJar : add plateformsettings
+2021-02-18 10:51:47,132 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,132 [INFO] PluginManager:203 - loadIPPluginJar : add quadspi
+2021-02-18 10:51:47,141 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,141 [INFO] PluginManager:203 - loadIPPluginJar : add resmgrutility
+2021-02-18 10:51:47,181 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,181 [INFO] PluginManager:203 - loadIPPluginJar : add sai
+2021-02-18 10:51:47,208 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,209 [INFO] PluginManager:203 - loadIPPluginJar : add spi
+2021-02-18 10:51:47,249 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,250 [INFO] PluginManager:203 - loadIPPluginJar : add stm32_wpan
+2021-02-18 10:51:47,269 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,269 [INFO] PluginManager:203 - loadIPPluginJar : add tim
+2021-02-18 10:51:47,314 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,314 [INFO] PluginManager:203 - loadIPPluginJar : add touchsensing
+2021-02-18 10:51:47,334 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,334 [INFO] PluginManager:203 - loadIPPluginJar : add tracer_emb
+2021-02-18 10:51:47,355 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,355 [INFO] PluginManager:203 - loadIPPluginJar : add ts
+2021-02-18 10:51:47,375 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,375 [INFO] PluginManager:203 - loadIPPluginJar : add tsc
+2021-02-18 10:51:47,394 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,395 [INFO] PluginManager:203 - loadIPPluginJar : add ucpd
+2021-02-18 10:51:47,428 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:51:47,428 [INFO] PluginManager:203 - loadIPPluginJar : add usart
+2021-02-18 10:51:47,711 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-02-18 10:51:47,846 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-02-18 10:51:47,902 [WARN] DetailPanel:347 - Failed to get advertising image, set to default
+2021-02-18 10:51:47,904 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-02-18 10:51:47,905 [WARN] DetailPanel:347 - Failed to get advertising image, set to default
+2021-02-18 10:51:47,952 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-02-18 10:51:47,952 [WARN] ThirdParty:783 - waiting for thirdparty lock release [close project]
+2021-02-18 10:51:48,796 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [2/15]
+2021-02-18 10:51:51,798 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-02-18 10:51:51,799 [ERROR] AbstractThirdPartyUpdaterManager:153 - java.lang.Integer cannot be cast to java.util.List
+2021-02-18 10:51:51,799 [INFO] ThirdParty:887 - Integrity check success = false
+2021-02-18 10:51:51,800 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-02-18 10:51:51,800 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-02-18 10:51:51,800 [INFO] ThirdParty:785 - entering critical section [close project]
+2021-02-18 10:51:51,804 [INFO] ThirdParty:796 - exiting critical section [close project]
+2021-02-18 10:51:51,808 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-02-18 10:51:51,809 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-02-18 10:51:51,819 [ERROR] Updater:1065 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2021-02-18 10:51:51,827 [INFO] Updater:1002 - Updater Version found : 6.1.1
+2021-02-18 10:51:51,843 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304
+2021-02-18 10:51:52,268 [INFO] MainUpdater:2644 - connection check result : 10
+2021-02-18 10:51:52,269 [INFO] MainUpdater:249 - Updater Check For Update Now.
+2021-02-18 10:51:52,269 [INFO] MicroXplorer:415 - Change Database Version : DB.6.0.10
+2021-02-18 10:51:52,314 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2021-02-18 10:51:52,411 [INFO] MainUpdater:2644 - connection check result : 10
+2021-02-18 10:51:52,894 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2021-02-18 10:51:52,898 [INFO] MultiScanPanel:198 - Auto-refresh data requested => check proxy status ongoing
+2021-02-18 10:51:52,901 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2021-02-18 10:51:52,903 [INFO] DbMcusXml:97 - Load MCU database from C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/mcu/families.xml
+2021-02-18 10:51:53,560 [INFO] DbMcusJson:92 - JSON generation date=Wed Jan 20 16:17:20 ICT 2021 (1611134240)
+2021-02-18 10:51:54,104 [INFO] DbMcus:176 - Found 1835 MCUs (1796 are supported by CubeMX, 1804 are visible in CubeMX)
+2021-02-18 10:51:54,105 [INFO] ApiDb:238 - Load user favorites file C:\Users\ADMIN/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-02-18 10:51:54,105 [INFO] ApiDb:242 - User favorites MCUs=[]
+2021-02-18 10:51:54,105 [INFO] DbMcus:188 - Set 0 / 0 favorites MCUs
+2021-02-18 10:51:54,469 [INFO] DetailPanel:344 - Set advertising image to C:/Users/ADMIN/STM32Cube/Repository/\stm32cubemx-promo_image.jpg
+2021-02-18 10:51:54,739 [INFO] McuFilterPanel:245 - Update 0 favorites MCUs
+2021-02-18 10:51:54,815 [INFO] DbBoardsPdsc:91 - Found 24 items
+2021-02-18 10:51:54,823 [INFO] DbBoardsPdsc:91 - Found 9 items
+2021-02-18 10:51:54,832 [INFO] DbBoardsPdsc:91 - Found 32 items
+2021-02-18 10:51:54,839 [INFO] DbBoardsPdsc:91 - Found 1 items
+2021-02-18 10:51:54,850 [INFO] DbBoardsPdsc:91 - Found 45 items
+2021-02-18 10:51:54,863 [INFO] DbBoardsPdsc:91 - Found 41 items
+2021-02-18 10:51:54,872 [INFO] DbBoardsPdsc:91 - Found 2 items
+2021-02-18 10:51:54,880 [INFO] DbBoardsPdsc:91 - Found 4 items
+2021-02-18 10:51:54,885 [WARN] DbBoardsPdsc:255 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2021-02-18 10:51:54,886 [WARN] DbBoardsPdsc:255 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2021-02-18 10:51:54,890 [WARN] DbBoardsPdsc:255 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2021-02-18 10:51:54,890 [WARN] DbBoardsPdsc:255 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2021-02-18 10:51:54,890 [WARN] DbBoardsPdsc:255 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2021-02-18 10:51:54,913 [INFO] DbBoardsJson:85 - JSON generation date=Wed Jan 20 15:08:10 ICT 2021 (1611130090)
+2021-02-18 10:51:54,916 [INFO] DbBoards:118 - Found 158 boards (155 are supported by CubeMX)
+2021-02-18 10:51:54,934 [INFO] DbBoardsDocs:145 - JSON generation date=Wed Jan 20 16:17:20 ICT 2021 (1611134240)
+2021-02-18 10:51:54,948 [INFO] DbBoardsDocs:81 - Found 190 boards documents
+2021-02-18 10:51:54,948 [WARN] DbBoards:128 - board B-L462E-CELL1 has no document id list !
+2021-02-18 10:51:54,948 [WARN] DbBoards:128 - board B-L475E-IOT01A2 has no document id list !
+2021-02-18 10:51:54,949 [WARN] DbBoards:128 - board NUCLEO-G0B1RE has no document id list !
+2021-02-18 10:51:54,949 [WARN] DbBoards:128 - board NUCLEO-G491RE has no document id list !
+2021-02-18 10:51:54,949 [WARN] DbBoards:128 - board NUCLEO-H743ZI2 has no document id list !
+2021-02-18 10:51:54,949 [WARN] DbBoards:128 - board NUCLEO-L4A6ZG has no document id list !
+2021-02-18 10:51:54,950 [WARN] DbBoards:128 - board NUCLEO-WB55RG has no document id list !
+2021-02-18 10:51:54,950 [WARN] DbBoards:128 - board NUCLEO-WL55JC1 has no document id list !
+2021-02-18 10:51:54,950 [WARN] DbBoards:128 - board NUCLEO-WL55JC2 has no document id list !
+2021-02-18 10:51:54,950 [WARN] DbBoards:128 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2021-02-18 10:51:54,950 [WARN] DbBoards:128 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2021-02-18 10:51:54,950 [WARN] DbBoards:128 - board STEVAL-BFA001V1B has no document id list !
+2021-02-18 10:51:54,950 [WARN] DbBoards:128 - board STEVAL-BFA001V2B has no document id list !
+2021-02-18 10:51:54,950 [WARN] DbBoards:128 - board STEVAL-IDP005V1 has no document id list !
+2021-02-18 10:51:54,950 [WARN] DbBoards:128 - board STEVAL-IDP005V2 has no document id list !
+2021-02-18 10:51:54,950 [WARN] DbBoards:128 - board STEVAL-MKSBOX1V1 has no document id list !
+2021-02-18 10:51:54,950 [WARN] DbBoards:128 - board STEVAL-STWINKT1 has no document id list !
+2021-02-18 10:51:54,951 [WARN] DbBoards:128 - board STM32F401C-DISCO has no document id list !
+2021-02-18 10:51:54,951 [WARN] DbBoards:128 - board STM32F769I-DISC1 has no document id list !
+2021-02-18 10:51:54,951 [WARN] DbBoards:128 - board STM32G0C1E-EV has no document id list !
+2021-02-18 10:51:54,951 [WARN] DbBoards:128 - board STM32G474E-EVAL1 has no document id list !
+2021-02-18 10:51:54,952 [WARN] DbBoards:128 - board STM32H743I-EVAL2 has no document id list !
+2021-02-18 10:51:54,952 [WARN] DbBoards:128 - board STM32H747I-DISC1 has no document id list !
+2021-02-18 10:51:54,952 [WARN] DbBoards:128 - board STM32H753I-EVAL2 has no document id list !
+2021-02-18 10:51:54,952 [WARN] DbBoards:128 - board STM32L-DISCOVERY has no document id list !
+2021-02-18 10:51:54,952 [WARN] DbBoards:128 - board STM32MP157A-DK1 has no document id list !
+2021-02-18 10:51:54,953 [WARN] DbBoards:128 - board STM32MP157F-DK2 has no document id list !
+2021-02-18 10:51:54,953 [WARN] DbBoards:128 - board STM32MP157F-EV1 has no document id list !
+2021-02-18 10:51:55,978 [INFO] ApiDb:238 - Load user favorites file C:\Users\ADMIN/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2021-02-18 10:51:55,979 [INFO] ApiDb:242 - User favorites Boards=[]
+2021-02-18 10:51:55,979 [INFO] DbBoards:207 - Set 0 / 0 favorites Boards
+2021-02-18 10:52:18,268 [INFO] DbMcusDocs:145 - JSON generation date=Wed Jan 20 16:17:20 ICT 2021 (1611134240)
+2021-02-18 10:52:18,454 [INFO] DbMcusDocs:81 - Found 614 MCUs documents
+2021-02-18 10:52:59,233 [INFO] MainUpdater:2644 - connection check result : 10
+2021-02-18 10:52:59,234 [INFO] MainUpdater:2644 - connection check result : 10
+2021-02-18 10:52:59,275 [INFO] MicroXplorer:385 - Change Database Path : 
+2021-02-18 10:52:59,275 [INFO] MicroXplorer:415 - Change Database Version : DB.6.0.10
+2021-02-18 10:52:59,275 [WARN] ThirdParty:783 - waiting for thirdparty lock release [close project]
+2021-02-18 10:52:59,275 [INFO] ThirdParty:785 - entering critical section [close project]
+2021-02-18 10:52:59,275 [INFO] ThirdParty:796 - exiting critical section [close project]
+2021-02-18 10:52:59,277 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-02-18 10:52:59,278 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 383903952 Bytes (691011584)
+2021-02-18 10:52:59,280 [INFO] MicroXplorer:385 - Change Database Path : 
+2021-02-18 10:52:59,280 [INFO] MicroXplorer:415 - Change Database Version : DB.6.0.10
+2021-02-18 10:52:59,280 [INFO] OpenFileManager:274 - Change cursor
+2021-02-18 10:52:59,281 [WARN] ThirdParty:204 - Use empty third party IP manager
+2021-02-18 10:52:59,308 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-02-18 10:52:59,308 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-02-18 10:52:59,608 [INFO] ThirdParty:887 - Integrity check success = true
+2021-02-18 10:52:59,609 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-02-18 10:52:59,609 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-02-18 10:53:00,982 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2021-02-18 10:53:00,982 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2021-02-18 10:53:00,982 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2021-02-18 10:53:01,028 [INFO] RtosManager:464 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-02-18 10:53:01,028 [INFO] RtosManager:464 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-02-18 10:53:01,028 [INFO] RtosManager:464 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-02-18 10:53:01,029 [INFO] RtosManager:464 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-02-18 10:53:01,029 [WARN] ModelIntegratedComponent:182 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-02-18 10:53:01,031 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,031 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,031 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,031 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,031 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,032 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,032 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,032 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,032 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,032 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,032 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,032 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,033 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,034 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,034 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,034 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,034 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,034 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,034 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,034 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,034 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,034 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,034 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,035 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,035 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,035 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,035 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,035 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,035 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,035 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,035 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,035 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,035 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,035 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,036 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,036 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,036 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,036 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,036 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,036 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,036 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,037 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,037 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,037 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,037 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,037 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,037 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,037 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,037 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,037 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 10:53:01,041 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.1.0: no header file found
+2021-02-18 10:53:01,042 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,042 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,042 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,042 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,042 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,042 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,043 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,043 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,043 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,043 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 10:53:01,203 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 562891648 Bytes (691011584)
+2021-02-18 10:53:01,210 [WARN] ThirdParty:749 - waiting for thirdparty lock release [change project]
+2021-02-18 10:53:01,210 [INFO] ThirdParty:751 - entering critical section [change project]
+2021-02-18 10:53:01,210 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-02-18 10:53:01,210 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-02-18 10:53:01,210 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-02-18 10:53:01,210 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-02-18 10:53:01,210 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-02-18 10:53:01,210 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-02-18 10:53:01,210 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.1.0
+2021-02-18 10:53:01,210 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-02-18 10:53:01,210 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-02-18 10:53:01,210 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-02-18 10:53:01,210 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 4.2.0
+2021-02-18 10:53:01,211 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-02-18 10:53:01,211 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-02-18 10:53:01,211 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-02-18 10:53:01,211 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-02-18 10:53:01,211 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-02-18 10:53:01,211 [INFO] ThirdParty:757 - exiting critical section [change project]
+2021-02-18 10:53:01,376 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-02-18 10:53:01,377 [INFO] PinOutPanel:1434 - setPackage(STM32F411VETx,LQFP100)
+2021-02-18 10:53:01,702 [INFO] UtilMem:74 - Before build in PCC Used Memory: 342000368 Bytes (691011584)
+2021-02-18 10:53:02,086 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/ADMIN/.stm32cubemx/plugins/power
+2021-02-18 10:53:02,119 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/ADMIN/.stm32cubemx/plugins/power
+2021-02-18 10:53:02,141 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/ADMIN/.stm32cubemx/plugins/power
+2021-02-18 10:53:02,145 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/ADMIN/.stm32cubemx/plugins/power
+2021-02-18 10:53:02,266 [INFO] UtilMem:74 - After build in PCC Used Memory: 395941608 Bytes (691011584)
+2021-02-18 10:53:02,281 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,282 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,282 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,282 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,282 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,282 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,282 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,284 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,284 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,284 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,284 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,284 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,285 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,285 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,285 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,285 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,285 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,285 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,286 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,286 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,286 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,286 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,287 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,287 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,287 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,287 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,287 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,288 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,288 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,288 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,288 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,289 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,289 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,290 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,290 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 10:53:02,350 [INFO] ApiDbMcu:456 - Load IP Config File for PDM2PCM
+2021-02-18 10:53:02,373 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2021-02-18 10:53:02,462 [INFO] OpenFileManager:294 - Restore cursor
+2021-02-18 10:53:02,668 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 447844080 Bytes (691011584)
+2021-02-18 10:53:02,777 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 456759016 Bytes (691011584)
+2021-02-18 10:53:03,067 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-02-18 10:53:03,067 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-02-18 10:53:03,067 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-02-18 10:53:03,068 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\
+2021-02-18 10:53:03,441 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\license.tmp_save
+2021-02-18 10:53:03,751 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\license.tmp
+2021-02-18 10:53:03,836 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\stm32f4xx_it.c_save
+2021-02-18 10:53:03,929 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\stm32f4xx_it.c
+2021-02-18 10:53:03,937 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\stm32f4xx_it.h_save
+2021-02-18 10:53:03,992 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\stm32f4xx_it.h
+2021-02-18 10:53:04,022 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\stm32f4xx_hal_msp.c_save
+2021-02-18 10:53:04,094 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\stm32f4xx_hal_msp.c
+2021-02-18 10:53:04,102 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\system.tmp_save
+2021-02-18 10:53:04,143 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\system.tmp
+2021-02-18 10:53:04,172 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-02-18 10:53:04,239 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\stm32f4xx_hal_conf.h
+2021-02-18 10:53:04,306 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\main.h_save
+2021-02-18 10:53:04,365 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\main.h
+2021-02-18 10:53:04,377 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\main.c_save
+2021-02-18 10:53:04,469 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\main.c
+2021-02-18 10:53:05,317 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 375mS.
+2021-02-18 10:53:05,327 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.2
+2021-02-18 10:53:05,679 [INFO] ConfigFileManager:1238 - The Die is : DIE431
+2021-02-18 10:53:05,700 [INFO] ApiDbMcu:456 - Load IP Config File for FATFS
+2021-02-18 10:53:05,731 [INFO] ApiDbMcu:456 - Load IP Config File for FREERTOS
+2021-02-18 10:53:05,741 [INFO] ApiDbMcu:456 - Load IP Config File for LIBJPEG
+2021-02-18 10:53:05,784 [INFO] ApiDbMcu:456 - Load IP Config File for MBEDTLS
+2021-02-18 10:53:05,822 [INFO] ApiDbMcu:456 - Load IP Config File for USB_DEVICE
+2021-02-18 10:53:05,837 [INFO] ApiDbMcu:456 - Load IP Config File for USB_HOST
+2021-02-18 10:53:09,163 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 3836mS.
+2021-02-18 10:53:09,164 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 1mS.
+2021-02-18 10:53:09,165 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-02-18 10:53:09,483 [INFO] ApiDb:263 - Save user favorites file C:\Users\ADMIN/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-02-18 10:53:09,484 [INFO] ApiDb:267 - User favorites MCUs=[]
+2021-02-18 10:53:23,339 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 554402088 Bytes (977272832)
+2021-02-18 10:53:25,446 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 696371168 Bytes (977272832)
+2021-02-18 10:53:25,652 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-02-18 10:53:25,653 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-02-18 10:53:25,653 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-02-18 10:53:25,653 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-02-18 10:53:25,653 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\
+2021-02-18 10:53:25,813 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\license.tmp_save
+2021-02-18 10:53:25,848 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\license.tmp
+2021-02-18 10:53:25,877 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\gpio.tmp_save
+2021-02-18 10:53:25,921 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\gpio.tmp
+2021-02-18 10:53:25,951 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\stm32f4xx_it.c_save
+2021-02-18 10:53:26,003 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\stm32f4xx_it.c
+2021-02-18 10:53:26,006 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\stm32f4xx_it.h_save
+2021-02-18 10:53:26,046 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\stm32f4xx_it.h
+2021-02-18 10:53:26,074 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\stm32f4xx_hal_msp.c_save
+2021-02-18 10:53:26,127 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\stm32f4xx_hal_msp.c
+2021-02-18 10:53:26,133 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\system.tmp_save
+2021-02-18 10:53:26,167 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\system.tmp
+2021-02-18 10:53:26,195 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-02-18 10:53:26,261 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\stm32f4xx_hal_conf.h
+2021-02-18 10:53:26,308 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\main.h_save
+2021-02-18 10:53:26,352 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\main.h
+2021-02-18 10:53:26,365 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\main.c_save
+2021-02-18 10:53:26,439 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\main.c
+2021-02-18 10:53:26,931 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 51mS.
+2021-02-18 10:53:26,933 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.2
+2021-02-18 10:53:27,166 [INFO] ConfigFileManager:1238 - The Die is : DIE431
+2021-02-18 10:53:28,440 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 1507mS.
+2021-02-18 10:53:28,441 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 1mS.
+2021-02-18 10:53:28,442 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
+2021-02-18 11:03:31,323 [INFO] Activator:170 - 
+
+
+2021-02-18 11:03:31,325 [INFO] Activator:171 - !SESSION log4j initialized
+2021-02-18 11:15:39,279 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2021-02-18 11:15:39,352 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304
+2021-02-18 11:15:39,360 [INFO] DbMcusXml:71 - Set database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/mcu/
+2021-02-18 11:15:39,363 [INFO] DbBoardsPdsc:57 - Set plugin database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/boardmanager/
+2021-02-18 11:15:39,363 [INFO] DbMcus:259 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 11:15:39,363 [INFO] DbBoards:265 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 11:15:39,365 [INFO] DbExamples:329 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 11:15:39,369 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 11:15:39,371 [INFO] DbMcusJson:63 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 11:15:39,372 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 11:15:39,373 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 11:15:39,616 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-02-18 11:15:39,630 [INFO] DbExamplesSqlite:699 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 11:15:39,731 [INFO] RulesReader:52 - Compatibility file has been processed (228 Rules)
+2021-02-18 11:15:39,831 [INFO] MicroXplorer:565 - Detected Java Version = 1.8.0_202
+2021-02-18 11:15:39,831 [INFO] DbMcusXml:71 - Set database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/mcu/
+2021-02-18 11:15:39,832 [INFO] DbBoardsPdsc:57 - Set plugin database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/boardmanager/
+2021-02-18 11:15:39,833 [INFO] DbMcus:259 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 11:15:39,833 [INFO] DbBoards:265 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 11:15:39,833 [INFO] DbExamples:329 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 11:15:39,833 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 11:15:39,834 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 11:15:39,834 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 11:15:39,834 [INFO] DbMcusJson:63 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 11:15:39,834 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 11:15:39,834 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 11:15:39,834 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 11:15:39,835 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 11:15:39,835 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 11:15:39,835 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 11:15:39,835 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-02-18 11:15:39,835 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 11:15:39,835 [INFO] DbExamplesSqlite:699 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 11:15:39,930 [INFO] MainPanel:190 - HeapMemory: 329252864
+2021-02-18 11:15:39,990 [INFO] DbMcusXml:71 - Set database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/mcu/
+2021-02-18 11:15:39,991 [INFO] DbBoardsPdsc:57 - Set plugin database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/boardmanager/
+2021-02-18 11:15:39,991 [INFO] DbMcus:259 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 11:15:39,991 [INFO] DbBoards:265 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 11:15:39,991 [INFO] DbExamples:329 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-02-18 11:15:39,992 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 11:15:39,992 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 11:15:39,992 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 11:15:39,993 [INFO] DbMcusJson:63 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 11:15:39,993 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 11:15:39,993 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 11:15:39,993 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 11:15:39,993 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 11:15:39,994 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 11:15:39,994 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 11:15:39,994 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-02-18 11:15:39,994 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder/ => C:\Users\ADMIN\.stmcufinder\plugins\mcufinder
+2021-02-18 11:15:39,994 [INFO] DbExamplesSqlite:699 - Set database path to: C:\Users\ADMIN\.stmcufinder\plugins\mcufinder//mcu/
+2021-02-18 11:15:40,012 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304
+2021-02-18 11:15:40,014 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, ]
+2021-02-18 11:15:40,016 [INFO] PluginManage:292 - Check plugin analytics
+2021-02-18 11:15:40,170 [INFO] AnalyticsPlugin:225 - Accepted Software Licenses: 
+2021-02-18 11:15:40,171 [INFO] AnalyticsPlugin:227 - Accepted CMSIS Pack Licenses: 
+2021-02-18 11:15:40,171 [INFO] AnalyticsPlugin:229 - Accepted Firmware Licenses: 
+2021-02-18 11:15:40,172 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2021-02-18 11:15:40,172 [INFO] PluginManage:292 - Check plugin clock
+2021-02-18 11:15:40,183 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2021-02-18 11:15:40,183 [INFO] PluginManage:292 - Check plugin ddr
+2021-02-18 11:15:40,185 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2021-02-18 11:15:40,185 [INFO] PluginManage:292 - Check plugin filemanager
+2021-02-18 11:15:40,287 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2021-02-18 11:15:40,287 [INFO] PluginManage:292 - Check plugin ipmanager
+2021-02-18 11:15:40,297 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2021-02-18 11:15:40,298 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2021-02-18 11:15:40,306 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2021-02-18 11:15:40,306 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2021-02-18 11:15:40,329 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2021-02-18 11:15:40,330 [INFO] PluginManage:292 - Check plugin power
+2021-02-18 11:15:40,338 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2021-02-18 11:15:40,338 [INFO] PluginManage:292 - Check plugin projectmanager
+2021-02-18 11:15:40,352 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2021-02-18 11:15:40,353 [INFO] PluginManage:292 - Check plugin thirdparty
+2021-02-18 11:15:40,439 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2021-02-18 11:15:40,439 [INFO] PluginManage:292 - Check plugin tools
+2021-02-18 11:15:40,439 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-02-18 11:15:40,440 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-02-18 11:15:40,440 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [1/15]
+2021-02-18 11:15:40,442 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2021-02-18 11:15:40,442 [INFO] PluginManage:292 - Check plugin tutovideos
+2021-02-18 11:15:40,626 [INFO] PluginManage:342 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2021-02-18 11:15:40,627 [INFO] PluginManage:292 - Check plugin updater
+2021-02-18 11:15:40,637 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2021-02-18 11:15:40,638 [INFO] PluginManage:265 - PluginManage : Loaded plugins [13]
+2021-02-18 11:15:40,818 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-02-18 11:15:40,917 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,918 [INFO] PluginManager:203 - loadIPPluginJar : add adc
+2021-02-18 11:15:40,920 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,920 [INFO] PluginManager:203 - loadIPPluginJar : add aes
+2021-02-18 11:15:40,922 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,922 [INFO] PluginManager:203 - loadIPPluginJar : add can
+2021-02-18 11:15:40,924 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,924 [INFO] PluginManager:203 - loadIPPluginJar : add comp
+2021-02-18 11:15:40,926 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,926 [INFO] PluginManager:203 - loadIPPluginJar : add cryp
+2021-02-18 11:15:40,928 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,928 [INFO] PluginManager:203 - loadIPPluginJar : add dfsdm
+2021-02-18 11:15:40,933 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,933 [INFO] PluginManager:203 - loadIPPluginJar : add dma
+2021-02-18 11:15:40,935 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,935 [INFO] PluginManager:203 - loadIPPluginJar : add fatfs
+2021-02-18 11:15:40,938 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,938 [INFO] PluginManager:203 - loadIPPluginJar : add fmc
+2021-02-18 11:15:40,942 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,943 [INFO] PluginManager:203 - loadIPPluginJar : add freertos
+2021-02-18 11:15:40,944 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,945 [INFO] PluginManager:203 - loadIPPluginJar : add genericplugin
+2021-02-18 11:15:40,946 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,947 [INFO] PluginManager:203 - loadIPPluginJar : add gfxmmu
+2021-02-18 11:15:40,951 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,951 [INFO] PluginManager:203 - loadIPPluginJar : add gic
+2021-02-18 11:15:40,954 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,954 [INFO] PluginManager:203 - loadIPPluginJar : add gpio
+2021-02-18 11:15:40,956 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,956 [INFO] PluginManager:203 - loadIPPluginJar : add gtzc
+2021-02-18 11:15:40,958 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,958 [INFO] PluginManager:203 - loadIPPluginJar : add hash
+2021-02-18 11:15:40,960 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,960 [INFO] PluginManager:203 - loadIPPluginJar : add i2c
+2021-02-18 11:15:40,962 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,962 [INFO] PluginManager:203 - loadIPPluginJar : add i2s
+2021-02-18 11:15:40,964 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,965 [INFO] PluginManager:203 - loadIPPluginJar : add ipddr
+2021-02-18 11:15:40,967 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,967 [INFO] PluginManager:203 - loadIPPluginJar : add lorawan
+2021-02-18 11:15:40,968 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,968 [INFO] PluginManager:203 - loadIPPluginJar : add ltdc
+2021-02-18 11:15:40,971 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,971 [INFO] PluginManager:203 - loadIPPluginJar : add mdma
+2021-02-18 11:15:40,974 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,974 [INFO] PluginManager:203 - loadIPPluginJar : add nvic
+2021-02-18 11:15:40,976 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,976 [INFO] PluginManager:203 - loadIPPluginJar : add opamp
+2021-02-18 11:15:40,990 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,990 [INFO] PluginManager:203 - loadIPPluginJar : add openamp
+2021-02-18 11:15:40,993 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:40,993 [INFO] PluginManager:203 - loadIPPluginJar : add pdm2pcm
+2021-02-18 11:15:40,999 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:41,002 [INFO] PluginManager:203 - loadIPPluginJar : add plateformsettings
+2021-02-18 11:15:41,003 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:41,004 [INFO] PluginManager:203 - loadIPPluginJar : add quadspi
+2021-02-18 11:15:41,006 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:41,007 [INFO] PluginManager:203 - loadIPPluginJar : add resmgrutility
+2021-02-18 11:15:41,009 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:41,009 [INFO] PluginManager:203 - loadIPPluginJar : add sai
+2021-02-18 11:15:41,012 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:41,012 [INFO] PluginManager:203 - loadIPPluginJar : add spi
+2021-02-18 11:15:41,015 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:41,016 [INFO] PluginManager:203 - loadIPPluginJar : add stm32_wpan
+2021-02-18 11:15:41,017 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:41,017 [INFO] PluginManager:203 - loadIPPluginJar : add tim
+2021-02-18 11:15:41,020 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:41,020 [INFO] PluginManager:203 - loadIPPluginJar : add touchsensing
+2021-02-18 11:15:41,022 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:41,022 [INFO] PluginManager:203 - loadIPPluginJar : add tracer_emb
+2021-02-18 11:15:41,024 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:41,024 [INFO] PluginManager:203 - loadIPPluginJar : add ts
+2021-02-18 11:15:41,026 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:41,026 [INFO] PluginManager:203 - loadIPPluginJar : add tsc
+2021-02-18 11:15:41,027 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:41,027 [INFO] PluginManager:203 - loadIPPluginJar : add ucpd
+2021-02-18 11:15:41,030 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:41,030 [INFO] PluginManager:203 - loadIPPluginJar : add usart
+2021-02-18 11:15:41,293 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-02-18 11:15:41,401 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-02-18 11:15:41,432 [WARN] DetailPanel:347 - Failed to get advertising image, set to default
+2021-02-18 11:15:41,434 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-02-18 11:15:41,435 [WARN] DetailPanel:347 - Failed to get advertising image, set to default
+2021-02-18 11:15:41,481 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-02-18 11:15:41,482 [WARN] ThirdParty:783 - waiting for thirdparty lock release [close project]
+2021-02-18 11:15:43,444 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [2/15]
+2021-02-18 11:15:46,458 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-02-18 11:15:46,459 [ERROR] AbstractThirdPartyUpdaterManager:153 - java.lang.Integer cannot be cast to java.util.List
+2021-02-18 11:15:46,459 [INFO] ThirdParty:887 - Integrity check success = false
+2021-02-18 11:15:46,461 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-02-18 11:15:46,461 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-02-18 11:15:46,461 [INFO] ThirdParty:785 - entering critical section [close project]
+2021-02-18 11:15:46,465 [INFO] ThirdParty:796 - exiting critical section [close project]
+2021-02-18 11:15:46,469 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-02-18 11:15:46,470 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-02-18 11:15:46,476 [ERROR] Updater:1065 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2021-02-18 11:15:46,478 [INFO] Updater:1002 - Updater Version found : 6.1.1
+2021-02-18 11:15:46,493 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304
+2021-02-18 11:15:46,738 [INFO] MainUpdater:2644 - connection check result : 10
+2021-02-18 11:15:46,741 [INFO] MainUpdater:249 - Updater Check For Update Now.
+2021-02-18 11:15:46,742 [INFO] MicroXplorer:415 - Change Database Version : DB.6.0.10
+2021-02-18 11:15:46,801 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2021-02-18 11:15:46,866 [INFO] MainUpdater:2644 - connection check result : 10
+2021-02-18 11:15:46,867 [INFO] MainUpdater:2644 - connection check result : 10
+2021-02-18 11:15:46,943 [INFO] MicroXplorer:385 - Change Database Path : 
+2021-02-18 11:15:46,943 [INFO] MicroXplorer:415 - Change Database Version : DB.6.0.10
+2021-02-18 11:15:46,943 [WARN] ThirdParty:783 - waiting for thirdparty lock release [close project]
+2021-02-18 11:15:46,943 [INFO] ThirdParty:785 - entering critical section [close project]
+2021-02-18 11:15:46,944 [INFO] ThirdParty:796 - exiting critical section [close project]
+2021-02-18 11:15:46,947 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-02-18 11:15:46,948 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 270512896 Bytes (329252864)
+2021-02-18 11:15:46,949 [INFO] MicroXplorer:385 - Change Database Path : 
+2021-02-18 11:15:46,949 [INFO] MicroXplorer:415 - Change Database Version : DB.6.0.10
+2021-02-18 11:15:46,949 [INFO] OpenFileManager:274 - Change cursor
+2021-02-18 11:15:46,953 [WARN] ThirdParty:204 - Use empty third party IP manager
+2021-02-18 11:15:46,978 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-02-18 11:15:46,978 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-02-18 11:15:47,268 [INFO] ThirdParty:887 - Integrity check success = true
+2021-02-18 11:15:47,268 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-02-18 11:15:47,269 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-02-18 11:15:48,721 [INFO] RtosManager:464 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-02-18 11:15:48,721 [INFO] RtosManager:464 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-02-18 11:15:48,721 [INFO] RtosManager:464 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-02-18 11:15:48,721 [INFO] RtosManager:464 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-02-18 11:15:48,721 [WARN] ModelIntegratedComponent:182 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-02-18 11:15:48,723 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,723 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,724 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,724 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,724 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,724 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,724 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,724 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,724 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,724 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,724 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,724 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,726 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,727 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,728 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,729 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,729 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,730 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,730 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,730 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,730 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,730 [WARN] ModelIntegratedComponent:51 - No mode defined for component null
+2021-02-18 11:15:48,733 [WARN] ApiManager:294 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.1.0: no header file found
+2021-02-18 11:15:48,735 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,735 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,735 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,735 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,735 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,735 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,735 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,735 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,735 [WARN] ModelIntegratedComponent:180 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,735 [WARN] ModelIntegratedComponent:186 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2021-02-18 11:15:48,897 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 604755848 Bytes (769654784)
+2021-02-18 11:15:48,899 [INFO] DbMcusXml:97 - Load MCU database from C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/mcu/families.xml
+2021-02-18 11:15:49,367 [INFO] DbMcusJson:92 - JSON generation date=Wed Jan 20 16:17:20 ICT 2021 (1611134240)
+2021-02-18 11:15:49,972 [INFO] DbMcus:176 - Found 1835 MCUs (1796 are supported by CubeMX, 1804 are visible in CubeMX)
+2021-02-18 11:15:49,972 [INFO] ApiDb:238 - Load user favorites file C:\Users\ADMIN/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-02-18 11:15:49,972 [INFO] ApiDb:242 - User favorites MCUs=[]
+2021-02-18 11:15:49,973 [INFO] DbMcus:188 - Set 0 / 0 favorites MCUs
+2021-02-18 11:15:49,975 [WARN] ThirdParty:749 - waiting for thirdparty lock release [change project]
+2021-02-18 11:15:49,975 [INFO] ThirdParty:751 - entering critical section [change project]
+2021-02-18 11:15:49,975 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-02-18 11:15:49,975 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-02-18 11:15:49,975 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-02-18 11:15:49,976 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-02-18 11:15:49,976 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-02-18 11:15:49,976 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-02-18 11:15:49,976 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.1.0
+2021-02-18 11:15:49,976 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-02-18 11:15:49,976 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-02-18 11:15:49,976 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-02-18 11:15:49,976 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 4.2.0
+2021-02-18 11:15:49,976 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-02-18 11:15:49,976 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-02-18 11:15:49,976 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-02-18 11:15:49,976 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-02-18 11:15:49,976 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-02-18 11:15:49,976 [INFO] ThirdParty:757 - exiting critical section [change project]
+2021-02-18 11:15:50,232 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-02-18 11:15:50,234 [INFO] PinOutPanel:1434 - setPackage(STM32F411VETx,LQFP100)
+2021-02-18 11:15:50,571 [INFO] UtilMem:74 - Before build in PCC Used Memory: 404260064 Bytes (832569344)
+2021-02-18 11:15:50,974 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/ADMIN/.stm32cubemx/plugins/power
+2021-02-18 11:15:51,004 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/ADMIN/.stm32cubemx/plugins/power
+2021-02-18 11:15:51,036 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/ADMIN/.stm32cubemx/plugins/power
+2021-02-18 11:15:51,041 [INFO] SharedServices:72 - Folder for power plug-in: C:/Users/ADMIN/.stm32cubemx/plugins/power
+2021-02-18 11:15:51,176 [INFO] UtilMem:74 - After build in PCC Used Memory: 354434552 Bytes (832569344)
+2021-02-18 11:15:51,193 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,193 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,193 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,193 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,193 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,193 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,194 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,194 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,194 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,194 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,194 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,194 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,194 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,194 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,195 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,195 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,195 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,195 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,196 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,196 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,196 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,196 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,196 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,197 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,197 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,197 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,197 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,197 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,198 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,198 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,198 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,198 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,199 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,199 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,199 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,199 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,200 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,200 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,200 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,201 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,201 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,202 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,202 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-02-18 11:15:51,254 [INFO] ApiDbMcu:456 - Load IP Config File for PDM2PCM
+2021-02-18 11:15:51,286 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2021-02-18 11:15:51,383 [INFO] OpenFileManager:294 - Restore cursor
+2021-02-18 11:18:06,762 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,519x297,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-02-18 11:18:07,863 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-02-18 11:18:15,565 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 648046816 Bytes (832569344)
+2021-02-18 11:18:17,348 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 217067416 Bytes (832569344)
+2021-02-18 11:18:17,670 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: NVIC
+2021-02-18 11:18:17,670 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-02-18 11:18:17,671 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: USART
+2021-02-18 11:18:17,671 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: SYS
+2021-02-18 11:18:17,671 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: GPIO
+2021-02-18 11:18:17,671 [INFO] BlockDiagram:2735 - set Specific Code input for plugin: RCC
+2021-02-18 11:18:17,671 [INFO] CodeGenerator:639 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\
+2021-02-18 11:18:17,966 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\license.tmp_save
+2021-02-18 11:18:18,267 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\license.tmp
+2021-02-18 11:18:18,342 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\gpio.tmp_save
+2021-02-18 11:18:18,403 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\gpio.tmp
+2021-02-18 11:18:18,472 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-02-18 11:18:18,502 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\stm32f4xx_it.c_save
+2021-02-18 11:18:18,601 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\stm32f4xx_it.c
+2021-02-18 11:18:18,609 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\stm32f4xx_it.h_save
+2021-02-18 11:18:18,662 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\stm32f4xx_it.h
+2021-02-18 11:18:18,690 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\stm32f4xx_hal_msp.c_save
+2021-02-18 11:18:18,785 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\stm32f4xx_hal_msp.c
+2021-02-18 11:18:18,792 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\system.tmp_save
+2021-02-18 11:18:18,827 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\MXTmpFiles\system.tmp
+2021-02-18 11:18:18,855 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-02-18 11:18:18,931 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\stm32f4xx_hal_conf.h
+2021-02-18 11:18:18,986 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\main.h_save
+2021-02-18 11:18:19,037 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Inc\main.h
+2021-02-18 11:18:19,050 [INFO] CodeEngine:229 - oldGeneratedFile, E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\main.c_save
+2021-02-18 11:18:19,139 [INFO] CodeEngine:247 - Generated code: E:\ES_Git\QUECTEL 3G-LTE\HTTP Client\Core\Src\main.c
+2021-02-18 11:18:19,669 [INFO] ProjectBuilder:2328 - Time for Copy HAL[1] : 122mS.
+2021-02-18 11:18:19,673 [INFO] ProjectBuilder:3259 - Project Generator version: 3.11.2
+2021-02-18 11:18:19,895 [INFO] ConfigFileManager:1238 - The Die is : DIE431
+2021-02-18 11:18:19,910 [INFO] ApiDbMcu:456 - Load IP Config File for FATFS
+2021-02-18 11:18:19,933 [INFO] ApiDbMcu:456 - Load IP Config File for FREERTOS
+2021-02-18 11:18:19,937 [INFO] ApiDbMcu:456 - Load IP Config File for LIBJPEG
+2021-02-18 11:18:19,971 [INFO] ApiDbMcu:456 - Load IP Config File for MBEDTLS
+2021-02-18 11:18:20,001 [INFO] ApiDbMcu:456 - Load IP Config File for USB_DEVICE
+2021-02-18 11:18:20,009 [INFO] ApiDbMcu:456 - Load IP Config File for USB_HOST
+2021-02-18 11:18:22,058 [INFO] ProjectBuilder:3425 - Time for Generating toolchain IDE Files: 2385mS.
+2021-02-18 11:18:22,059 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 1mS.
+2021-02-18 11:18:22,060 [INFO] ProjectBuilder:2207 - Time for Copy CMSIS : 0mS.
