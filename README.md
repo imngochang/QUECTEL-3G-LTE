@@ -12,3 +12,23 @@ Enable global interrupt for Module Sim UART
 
 ![quectel-2](https://user-images.githubusercontent.com/31510769/108332034-f2dc7500-7201-11eb-86a5-f39e375fa0a6.PNG)
 
+Configure the UART port where your module is connected in the SIM_STM32.h file
+
+```
+/*Change used UART here*/
+extern UART_HandleTypeDef huart1;
+extern UART_HandleTypeDef huart2;
+//extern UART_HandleTypeDef huart3;
+//extern UART_HandleTypeDef huart4;
+//extern UART_HandleTypeDef huart5;
+//extern UART_HandleTypeDef huart6;
+```
+
+```
+/*Change used UART here*/
+#if (SIM_DEBUG == 1)
+#define LOG_UART 	huart1
+#endif
+#define SIM_UART 	huart2
+#define SIM_USART	USART2
+```
