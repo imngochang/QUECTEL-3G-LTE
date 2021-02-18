@@ -21,8 +21,8 @@
 #define F1 1
 
 /*Change your MCU line here*/
-//#define _STM32CHIP_ F4
-#define _STM32CHIP_ F3
+#define _STM32CHIP_ F4
+//#define _STM32CHIP_ F3
 //#define _STM32CHIP_ F1
 
 #if _STM32CHIP_ == F4
@@ -38,11 +38,12 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-//extern UART_HandleTypeDef huart1;
-//extern UART_HandleTypeDef huart2;
-extern UART_HandleTypeDef huart3;
+/*Change used UART here*/
+extern UART_HandleTypeDef huart1;
+extern UART_HandleTypeDef huart2;
+//extern UART_HandleTypeDef huart3;
 //extern UART_HandleTypeDef huart4;
-extern UART_HandleTypeDef huart5;
+//extern UART_HandleTypeDef huart5;
 //extern UART_HandleTypeDef huart6;
 
 typedef enum {
@@ -61,8 +62,12 @@ enum {
 	passive   	= 1,
 };
 
-#define LOG_UART huart5
-#define SIM_UART huart3
+/*Change used UART here*/
+#if (SIM_DEBUG == 1)
+#define LOG_UART 	huart1
+#endif
+#define SIM_UART 	huart2
+#define SIM_USART	USART2
 
 #define FTP_MAX_DOWNLOADLEN		10000L
 #define MAX_RECVBUF_LEN			12000L
@@ -83,20 +88,8 @@ STATUS Sim_configInternet(char* apn, char* user, char* pass);
 STATUS Sim_connectInternet(void);
 STATUS Sim_disconnectInternet(void);
 uint16_t Sim_getErrorCode(char* response, char* delim);
-STATUS HTTP_configParams(void);
-STATUS HTTP_sendGETRequest(char* url);
-STATUS HTTP_readGETResponse(char* datatoget);
-STATUS FTP_configParams(void);
-STATUS FTP_setUserAndPass(char* user, char* pass);
-STATUS FTP_setFileType(uint8_t type);
-STATUS FTP_setTransmode(uint8_t mode);
-STATUS FTP_setRspTimeout(uint8_t timeout);
-STATUS FTP_loginServer(char* server, uint16_t port);
-STATUS FTP_setPath(char* path);
-STATUS FTP_listFileNames(char* datatoget);
-uint32_t FTP_getFileSize(char* filename);
-STATUS FTP_downloadFile(char* filename, int32_t startpos, int32_t downloadlen, int32_t* firstbyte_pos, int32_t* lastbyte_pos);
-STATUS FTP_uploadFile(char* filename, uint32_t startpos, uint32_t uploadlen, int8_t beof, char* datatoput);
-STATUS SMS_sendMessage(char* phonenumb, char* datatosend);
-void deleteBuffer(char* buf, uint32_t len);
 
+uint32_t strstrFromStart(char* userdata, uint32_t endpos);
+uint32_t strstrFromEnd(char* userdata, uint32_t startpos);
+void subString(char* maindata, char* subdata, uint32_t startpos, uint32_t endpos);
+void deleteBuffer(char* buf, uint32_t len);
